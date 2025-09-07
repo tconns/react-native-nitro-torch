@@ -6,6 +6,7 @@
 //
 
 import AVFoundation
+import NitroModules
 
 class NitroTorch: HybridNitroTorchSpec {
   private var device: AVCaptureDevice?
@@ -53,10 +54,12 @@ class NitroTorch: HybridNitroTorchSpec {
     return status == .authorized
   }
 
-  func requestPermission() async -> Bool {
-    return await withCheckedContinuation { cont in
-      AVCaptureDevice.requestAccess(for: .video) { granted in
-        cont.resume(returning: granted)
+  func requestPermission(n: Double) -> Promise<Bool> {
+    return Promise.async {
+      return await withCheckedContinuation { cont in
+        AVCaptureDevice.requestAccess(for: .video) { granted in
+          cont.resume(returning: granted)
+        }
       }
     }
   }

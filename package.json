@@ -1,6 +1,6 @@
 {
   "name": "react-native-nitro-torch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Native camera torch/flashlight control for React Native built with Nitro Modules. Cross-platform support for iOS and Android with TypeScript.",
   "main": "lib/index",
   "module": "lib/index",
@@ -76,11 +76,11 @@
     "@types/jest": "^29.5.12",
     "@types/react": "19.1.0",
     "conventional-changelog-conventionalcommits": "^9.1.0",
-    "nitro-codegen": "^0.29.2",
+    "nitro-codegen": "^0.29.3",
     "react": "19.1.0",
     "react-native": "0.80.2",
     "react-native-builder-bob": "^0.37.0",
-    "react-native-nitro-modules": "^0.29.2",
+    "react-native-nitro-modules": "^0.29.3",
     "semantic-release": "^24.2.6",
     "typescript": "5.0.4"
   },

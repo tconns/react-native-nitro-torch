@@ -5770,13 +5770,13 @@ nerf-dart@^1.0.0:
   resolved "https://registry.yarnpkg.com/nerf-dart/-/nerf-dart-1.0.0.tgz#e6dab7febf5ad816ea81cf5c629c5a0ebde72c1a"
   integrity sha512-EZSPZB70jiVsivaBLYDCyntd5eH8NTSMOn3rB+HxwdmKThGELLdYv8qVIMWvZEFy9w8ZZpW9h9OB32l1rGtj7g==
 
-nitro-codegen@^0.29.2:
-  version "0.29.2"
-  resolved "https://registry.yarnpkg.com/nitro-codegen/-/nitro-codegen-0.29.2.tgz#34324ccc8569ddf0a82f838f393a799a6dd732c6"
-  integrity sha512-Oi1iqt7C6XSDt2kn0SuWPagLxVGJHImgbxJ4T4lx5/0fl9JE3NbPfdQofF2dwfYoXYOZVDC3TNWwds1Dx6Ycvg==
+nitro-codegen@^0.29.3:
+  version "0.29.3"
+  resolved "https://registry.yarnpkg.com/nitro-codegen/-/nitro-codegen-0.29.3.tgz#62975772b310d8f6a7545b82888f368535c11962"
+  integrity sha512-MgsnbZCJkSNxsDn5ziip9Cp8wscuSeeYS5cB8N7CYgYmI03xT8jXP8YJUlkTS5iPbXaI6rsRB1mQ84qNZgT9JQ==
   dependencies:
     chalk "^5.3.0"
-    react-native-nitro-modules "^0.29.2"
+    react-native-nitro-modules "^0.29.3"
     ts-morph "^25.0.0"
     yargs "^17.7.2"
     zod "^4.0.5"
@@ -6636,10 +6636,10 @@ react-native-builder-bob@^0.37.0:
     which "^2.0.2"
     yargs "^17.5.1"
 
-react-native-nitro-modules@^0.29.2:
-  version "0.29.2"
-  resolved "https://registry.yarnpkg.com/react-native-nitro-modules/-/react-native-nitro-modules-0.29.2.tgz#e1e419b7cfce875d83bbe0fda6a5a243b1f7719a"
-  integrity sha512-MdBiM+Rt/8T3xtstm1V7nkpwTEIXENjoU5Rb01Pkc4/tqP/6YQ3W0ZtVtZ6RwbRzBv9rJ12+7bgHeNNZ7WoRNw==
+react-native-nitro-modules@^0.29.3:
+  version "0.29.3"
+  resolved "https://registry.yarnpkg.com/react-native-nitro-modules/-/react-native-nitro-modules-0.29.3.tgz#2352892770ddfcabe6e287d8d41b13d3a186342e"
+  integrity sha512-gGaCueHKaZSw2rlrKrPgMZE6O6qvsnTJwNysJgk4ZEHMwnVe6Auk5hc4+sJPQLOVd6o+HMHdVhVQhZZv1u19Eg==
 
 react-native@0.80.2:
   version "0.80.2"
